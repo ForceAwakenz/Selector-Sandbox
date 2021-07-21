@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.sector {
+    background: #b6b6b6;
+    height: 50px;
+    width: 200px;
+    border-bottom: 1px solid black;
+}
+
+
+#nav div:first-child {
+    background-color: navajowhite;
+}
+
+#nav div:nth-child(1) + div {
+    background-color: navy;
+}
+
+#nav::first-line {
+    background-color: orange;
+}
+
+
+
+
+
+
